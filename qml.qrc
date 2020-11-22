@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Fund_info_box.qml</file>
+    </qresource>
+</RCC>
