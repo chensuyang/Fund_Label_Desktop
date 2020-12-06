@@ -10,6 +10,7 @@ TRectangle{
     radius: 2
     theme.enabled: false
     property alias fund_name : fund_name_tlabel.text                    // 对外暴露基金名称属性
+    property int fund_code                                              // 对外暴露基金代码属性
     property alias fund_expect_worth : fund_expect_worth_tlabel.text    // 对外暴露基金净值估算属性
     property alias fund_expect_growth : fund_expect_growth_tlabel.text  // 对外暴露基金净单位净值估算日涨幅属性
     property alias fund_info_box_background_color : tRectangle.color    // 对外暴露基金信息框的背景颜色属性
